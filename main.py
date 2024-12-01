@@ -16,7 +16,7 @@ print(API_TOKEN)
 
 # Данные для SMTP
 SMTP_SERVER = 'smtp.yandex.ru'
-SMTP_PORT = 587
+SMTP_PORT = 465
 SENDER_EMAIL = os.getenv('SENDER_EMAIL')
 SENDER_PASSWORD = os.getenv('SENDER_PASSWORD')
 
